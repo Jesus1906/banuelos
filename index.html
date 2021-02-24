@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="We are a company focused on gardening" />
+  <meta name="robots" content="index-follow" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Banuelos Landscaping LLC</title>
+  <link rel="icon" type="image/x-icon" href="media/logo1.png" />
+  <!--BootStrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <!--Font-Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw=="
+    crossorigin="anonymous" />
+  <!--Custom Styles-->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="menu-btn">
+    <i class="fas fa-bars"></i>
+  </div>
+  <header>
+    <nav>
+      <figure>
+        <img class="logo" src="media/logo2.png" alt="Logo" />
+      </figure>
+
+      <p>Banuelos Landscaping LLC</p>
+
+      <ul class="main-nav">
+        <li class="main-nav__item"><a href="#whoIAm">Home</a></li>
+        <li class="main-nav__item"><a href="#about">About</a></li>
+        <li class="main-nav__item"><a href="#galery">Galery</a></li>
+        <li class="main-nav__item"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="whoIAm" id="whoIAm">
+      <h2>Who I Am?</h2>
+      <p>
+        Is the grass greener in your neighbor's yard? Are you too tired or
+        busy to keep it all maintained? Let us help make your yard the envy of
+        the block! Call us today to schedule a project or weekly and bi-weekly
+        visits at a very reasonable cost!
+      </p>
+      <a class="btn" href="https://www.facebook.com/banueloslandscapingllc" target="_blank">View More <i class="fa fa-angle-double-right"></i></a>
+    </section>
+    <section class="about" id="about">
+      <h2>Vision</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut minima
+        amet totam id, a neque impedit quibusdam earum porro, error ex? Fugiat
+        molestiae tempore, quae voluptate cumque asperiores repellat quos
+        optio repudiandae hic modi laboriosam. In saepe labore velit pariatur.
+      </p>
+      <h2>Mision</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda in
+        veniam id aperiam. Maxime rerum qui obcaecati voluptatem eos, officiis
+        fugit, inventore doloremque facilis aliquid eaque. Provident natus
+        minus harum.
+      </p>
+    </section>
+    <hr />
+    <section class="galery" id="galery">
+      <h1>Galery</h1>
+      <p>Know our work</p>
+      <div class="galery-items">
+        <div class="item">
+          <a href="#modal1" data-bs-toggle="modal" data-bs-target="#modal1">
+            <figure>
+              <img src="./media/video1.png" alt="" />
+              <div class="capa">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </figure>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#modal2" data-bs-toggle="modal" data-bs-target="#modal2">
+            <figure>
+              <img src="./media/video2.png" alt="" />
+              <div class="capa"><i class="fas fa-plus fa-3x"></i></div>
+            </figure>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#modal3" data-bs-toggle="modal" data-bs-target="#modal3">
+            <figure>
+              <img src="./media/video3.png" alt="" />
+              <div class="capa"><i class="fas fa-plus fa-3x"></i></div>
+            </figure>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#modal4" data-bs-toggle="modal" data-bs-target="#modal4">
+            <figure>
+              <img src="./media/img1.jpg" alt="" />
+              <div class="capa">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </figure>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#modal5" data-bs-toggle="modal" data-bs-target="#modal5">
+            <figure>
+              <img src="./media/img2.jpg" alt="" />
+              <div class="capa"><i class="fas fa-plus fa-3x"></i></div>
+            </figure>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#modal6" data-bs-toggle="modal" data-bs-target="#modal6">
+            <figure>
+              <img src="./media/img3.jpg" alt="" />
+              <div class="capa"><i class="fas fa-plus fa-3x"></i></div>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modals -->
+    <!--Modal11-->
+    <div class="portfolio-modal modal fade" id="modal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project Details Go Here-->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <video src="media/video1.mp4" controls preload="auto" ></video>
+                  <p>
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal 2-->
+    <div class="portfolio-modal modal fade" id="modal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project Details Go Here-->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <video src="media/video2.mp4" controls preload="auto"></video>
+                  <p>
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal 3-->
+    <div class="portfolio-modal modal fade" id="modal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project Details Go Here-->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <video src="media/video3.mp4" controls preload="auto"></video>
+                  <p>
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal 4-->
+    <div class="portfolio-modal modal fade" id="modal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project Details Go Here-->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <div class="modal-body__content">
+                    <figure>
+                      <img src="./media/img1.jpg" alt="" />
+                    </figure>
+                    <figure>
+                      <img src="./media/img1-1.jpg" alt="" />
+                    </figure>
+                    <figure>
+                      <img src="./media/img1-2.jpg" alt="" />
+                    </figure>
+                  </div>
+                  <p>
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Modal 5-->
+    <div class="portfolio-modal modal fade" id="modal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project Details Go Here-->
+                  <h2 class="text-uppercase">Project Name</h2>
+
+                  <div class="modal-body__content">
+                    <figure>
+                      <img src="./media/img2.jpg" alt="" />
+                    </figure>
+                    <figure>
+                      <img src="./media/img2-1.jpg" alt="" />
+                    </figure>
+                    <figure>
+                      <img src="./media/img2-2.jpg" alt="" />
+                    </figure>
+                    <figure>
+                      <img src="./media/img2-3.jpg" alt="" />
+                    </figure>
+                    <figure>
+                      <img src="./media/img2-4.jpg" alt="" />
+                    </figure>
+                    <figure>
+                      <img src="./media/img2-5.jpg" alt="" />
+                    </figure>
+                  </div>
+                  <p>
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal 6-->
+    <div class="portfolio-modal modal fade" id="modal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project Details Go Here-->
+                  <h2 class="text-uppercase">Project Name</h2>
+                  <div class="modal-body__content">
+                    <figure>
+                      <img src="./media/img3.jpg" alt="" />
+                    </figure>
+                    <figure>
+                      <img src="./media/img3-1.jpg" alt="" />
+                    </figure>
+                    <figure>
+                      <img src="./media/img3-2.jpg" alt="" />
+                    </figure>
+                  </div>
+                  <p>
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="links">
+      <a href="https://www.facebook.com/banueloslandscapingllc" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="tel:+15094700583">
+        <i class="fas fa-phone-square"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+  
+</body>
+
+</html>
